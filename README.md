@@ -94,3 +94,4 @@ npm run create-types-for-sass-modules
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hdorgeval/gatsby-starter-ts-hello-world)
+"# basic-gatsby-tutorial" 

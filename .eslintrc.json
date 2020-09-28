@@ -30,15 +30,8 @@
   },
   "plugins": ["@typescript-eslint", "prettier", "react"],
   "rules": {
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
-    "no-console": ["error"],
-    "no-debugger": ["error"],
+    // "no-console": ["error"],
+    // "no-debugger": ["error"],
     "no-multiple-empty-lines": [
       "error",
       {
@@ -47,20 +40,17 @@
       }
     ],
     "semi": ["error", "always"],
-    "import/order": ["error", {
-      "groups": ["index", "sibling", "parent", "internal", "external", "builtin"]
-    }],
+    "import/order": [
+      "error",
+      {
+        "groups": ["index", "sibling", "parent", "internal", "external", "builtin"]
+      }
+    ],
     "react/prop-types": "off",
     "react/display-name": "off",
     "@typescript-eslint/explicit-function-return-type": "off"
   },
   "settings": {
-    "import/extensions": [
-      ".js",
-      ".ts",
-      ".tsx",
-      ".css",
-      ".scss"
-    ]
+    "import/extensions": [".js", ".ts", ".tsx", ".css", ".scss"]
   }
 }
